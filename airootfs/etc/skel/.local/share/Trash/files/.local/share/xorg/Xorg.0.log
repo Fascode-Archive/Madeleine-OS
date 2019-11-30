@@ -1,0 +1,94 @@
+[   719.443] (WW) Failed to open protocol names file lib/xorg/protocol.txt
+[   719.443] 
+X.Org X Server 1.20.6
+X Protocol Version 11, Revision 0
+[   719.444] Build Operating System: Linux Arch Linux
+[   719.444] Current Operating System: Linux Hayao-VBox-ArchLinux 4.19.86-1-lts #1 SMP Sun, 24 Nov 2019 10:16:00 +0000 x86_64
+[   719.444] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-linux-lts root=UUID=15ff3b9b-3340-4a1e-930f-1f45a2458827 rw loglevel=3 quiet
+[   719.447] Build Date: 23 November 2019  06:54:33AM
+[   719.448]  
+[   719.449] Current version of pixman: 0.38.4
+[   719.450] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[   719.450] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[   719.453] (==) Log file: "/home/hayao/.local/share/xorg/Xorg.0.log", Time: Sat Nov 30 19:19:37 2019
+[   719.454] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[   719.454] (==) No Layout section.  Using the first Screen section.
+[   719.455] (==) No screen section available. Using defaults.
+[   719.455] (**) |-->Screen "Default Screen Section" (0)
+[   719.455] (**) |   |-->Monitor "<default monitor>"
+[   719.455] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[   719.455] (==) Automatically adding devices
+[   719.455] (==) Automatically enabling devices
+[   719.455] (==) Automatically adding GPU devices
+[   719.455] (==) Automatically binding GPU devices
+[   719.455] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[   719.455] (WW) The directory "/usr/share/fonts/misc" does not exist.
+[   719.455] 	Entry deleted from font path.
+[   719.455] (WW) The directory "/usr/share/fonts/TTF" does not exist.
+[   719.455] 	Entry deleted from font path.
+[   719.455] (WW) The directory "/usr/share/fonts/Type1" does not exist.
+[   719.455] 	Entry deleted from font path.
+[   719.455] (WW) The directory "/usr/share/fonts/100dpi" does not exist.
+[   719.455] 	Entry deleted from font path.
+[   719.455] (WW) The directory "/usr/share/fonts/75dpi" does not exist.
+[   719.455] 	Entry deleted from font path.
+[   719.455] (==) FontPath set to:
+	/usr/share/fonts/OTF
+[   719.455] (==) ModulePath set to "/usr/lib/xorg/modules"
+[   719.455] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[   719.455] (II) Module ABI versions:
+[   719.455] 	X.Org ANSI C Emulation: 0.4
+[   719.455] 	X.Org Video Driver: 24.0
+[   719.455] 	X.Org XInput driver : 24.1
+[   719.455] 	X.Org Server Extension : 10.0
+[   719.456] (++) using VT number 2
+
+[   719.456] (--) controlling tty is VT number 2, auto-enabling KeepTty
+[   719.457] (EE) systemd-logind: TakeControl failed: Only owner of session may take control
+[   719.458] (II) xfree86: Adding drm device (/dev/dri/card0)
+[   719.459] (--) PCI:*(0@0:2:0) 80ee:beef:15ad:0405 rev 0, Mem @ 0xe0000000/134217728, 0xe8000000/2097152, I/O @ 0x00001000/16, BIOS @ 0x????????/131072
+[   719.459] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[   719.459] (II) LoadModule: "glx"
+[   719.459] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[   719.461] (II) Module glx: vendor="X.Org Foundation"
+[   719.461] 	compiled for 1.20.6, module version = 1.0.0
+[   719.461] 	ABI class: X.Org Server Extension, version 10.0
+[   719.461] (==) Matched vboxvideo as autoconfigured driver 0
+[   719.461] (==) Matched modesetting as autoconfigured driver 1
+[   719.461] (==) Matched fbdev as autoconfigured driver 2
+[   719.461] (==) Matched vesa as autoconfigured driver 3
+[   719.461] (==) Assigned the driver to the xf86ConfigLayout
+[   719.461] (II) LoadModule: "vboxvideo"
+[   719.461] (WW) Warning, couldn't open module vboxvideo
+[   719.461] (EE) Failed to load module "vboxvideo" (module does not exist, 0)
+[   719.461] (II) LoadModule: "modesetting"
+[   719.461] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[   719.462] (II) Module modesetting: vendor="X.Org Foundation"
+[   719.462] 	compiled for 1.20.6, module version = 1.20.6
+[   719.462] 	Module class: X.Org Video Driver
+[   719.462] 	ABI class: X.Org Video Driver, version 24.0
+[   719.462] (II) LoadModule: "fbdev"
+[   719.462] (WW) Warning, couldn't open module fbdev
+[   719.462] (EE) Failed to load module "fbdev" (module does not exist, 0)
+[   719.462] (II) LoadModule: "vesa"
+[   719.462] (WW) Warning, couldn't open module vesa
+[   719.462] (EE) Failed to load module "vesa" (module does not exist, 0)
+[   719.462] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[   719.462] (EE) 
+Fatal server error:
+[   719.464] (EE) xf86OpenConsole: Cannot open virtual console 2 (Permission denied)
+[   719.465] (EE) 
+[   719.466] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[   719.469] (EE) Please also check the log file at "/home/hayao/.local/share/xorg/Xorg.0.log" for additional information.
+[   719.471] (EE) 
+[   719.473] (WW) xf86CloseConsole: KDSETMODE failed: Bad file descriptor
+[   719.473] (WW) xf86CloseConsole: VT_GETMODE failed: Bad file descriptor
+[   719.473] (EE) Server terminated with error (1). Closing log file.

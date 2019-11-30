@@ -1,0 +1,4 @@
+./line_error.go
+./parser.go
+./printsrcinfo.go
+./srcinfo.go

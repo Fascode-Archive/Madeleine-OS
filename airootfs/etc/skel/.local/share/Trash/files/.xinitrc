@@ -1,0 +1,2 @@
+export ZIPINFOOPT=-OCP932
+export UNZIPOPT=-OCP932

@@ -1,0 +1,133 @@
+/usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
+xfce4-session: No SSH authentication agent found
+gpg-agent[561]: *警告*: "--write-env-file"は、使われなくなったオプションです - なんの効果もありません
+gpg-agent: gpg-agentは既に実行されています - 新しいものをスタートさせません
+
+(xfce4-session:526): xfce4-session-WARNING **: 18:50:41.206: gpg-agent returned no PID in the variables
+
+(xfce4-session:526): xfce4-session-WARNING **: 18:50:41.212: xfsm_manager_load_session: Something wrong with /home/hayao/.cache/sessions/xfce4-session-Hayao-VBox-ArchLinux:0, Does it exist? Permissions issue?
+
+(xfwm4:564): xfwm4-WARNING **: 18:50:41.521: Unsupported GL renderer (llvmpipe (LLVM 9.0, 256 bits)).
+
+(xfwm4:564): xfwm4-WARNING **: 18:50:41.521: Screen is missing required GL renderer, GL support disabled.
+
+(wrapper-2.0:584): Gtk-WARNING **: 18:50:42.159: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+blueman-applet 18.50.43 ERROR    PluginManager:90 load_plugin: Unable to load plugin module KillSwitch
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/blueman/main/PluginManager.py", line 88, in load_plugin
+    importlib.import_module(self.module_path.__name__ + ".%s" % plugin)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/lib/python3.8/site-packages/blueman/plugins/applet/KillSwitch.py", line 23, in <module>
+    raise ImportError('Hardware kill switch not found')
+ImportError: Hardware kill switch not found
+blueman-applet 18.50.43 WARNING  PluginManager:147 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+blueman-applet 18.50.43 WARNING  PluginManager:147 __load_plugin: Not loading PPPSupport because its conflict has higher priority
+blueman-applet 18.50.43 WARNING  TransferService:189 _make_share_path: Failed to get Download dir from XDG
+blueman-applet 18.50.43 WARNING  DiscvManager:109 update_menuitems: warning: Adapter is None
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-keyboard.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-spell.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-unicode.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-clipboard.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-ipc.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-fullwidth-char.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-mozc.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-freedesktop-notify.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-xkbdbus.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-notificationitem.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-quickphrase.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-punc.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-xkb.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-table.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-ipcportal.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-kimpanel-ui.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-x11.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-pinyin.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-classic-ui.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-pinyin-enhance.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-qw.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-remote-module.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-dbus.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-chttrans.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-xim.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-imselector.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-vk.conf
+(INFO-667 addon.c:151) アドオンの設定ファイルを読み込み: fcitx-autoeng.conf
+(ERROR-667 ime.c:432) fcitx-keyboard-in-tel-kagapa already exists
+(ERROR-667 ime.c:432) fcitx-keyboard-cm-mmuock already exists
+(WARN-667 xim.c:161) XMODIFIERSを設定してください。
+
+(xfce4-panel:573): Gtk-CRITICAL **: 19:00:06.136: gtk_widget_grab_default: assertion 'gtk_widget_get_can_default (widget)' failed
+
+(xfce4-panel:573): Gtk-CRITICAL **: 19:00:10.769: gtk_icon_theme_load_icon: assertion 'icon_name != NULL' failed
+
+(xfce4-panel:573): Gtk-CRITICAL **: 19:02:42.792: gtk_widget_grab_default: assertion 'gtk_widget_get_can_default (widget)' failed
+
+(xfce4-panel:573): Gtk-CRITICAL **: 19:02:59.961: gtk_widget_grab_default: assertion 'gtk_widget_get_can_default (widget)' failed
+
+(wrapper-2.0:3653): Gtk-WARNING **: 19:03:03.382: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:3656): Gtk-WARNING **: 19:03:08.797: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkButton)
+
+(wrapper-2.0:3661): GLib-GIO-CRITICAL **: 19:03:12.864: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:3661): GLib-GIO-CRITICAL **: 19:03:12.864: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:3661): GLib-GObject-WARNING **: 19:03:12.864: invalid (NULL) pointer instance
+
+(wrapper-2.0:3661): GLib-GObject-CRITICAL **: 19:03:12.864: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:3661): Gtk-WARNING **: 19:03:12.864: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:3661): Gtk-WARNING **: 19:03:12.877: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:3664): Gtk-WARNING **: 19:03:16.460: gtk_widget_size_allocate(): attempt to allocate widget with width -1 and height 32
+
+** (wrapper-2.0:3667): WARNING **: 19:03:18.822: No outputs have backlight property
+
+(wrapper-2.0:3667): Gtk-WARNING **: 19:03:18.899: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner PowerManagerButton)
+
+(wrapper-2.0:3674): Gtk-WARNING **: 19:03:30.052: Theme parsing error: <data>:1:49: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(wrapper-2.0:3674): Gtk-WARNING **: 19:03:30.052: Theme parsing error: <data>:1:80: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(wrapper-2.0:3674): Gtk-WARNING **: 19:03:30.052: Theme parsing error: <data>:1:109: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(wrapper-2.0:3674): Gtk-WARNING **: 19:03:30.052: Theme parsing error: <data>:1:136: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(wrapper-2.0:3674): Gtk-WARNING **: 19:03:30.069: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+(xfce4-panel:573): Gtk-CRITICAL **: 19:03:33.428: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(xfce4-panel:573): xfce4-panel-CRITICAL **: 19:03:39.726: panel-window.c:3086 (panel_window_thaw_autohide): expression 'window->autohide_block > 0' failed.
+[3712:3712:1130/190400.373471:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+[3712:3712:1130/190412.765400:ERROR:context_group.cc(143)] ContextResult::kFatalFailure: WebGL1 blacklisted
+[3712:3712:1130/190412.785800:ERROR:context_group.cc(143)] ContextResult::kFatalFailure: WebGL1 blacklisted
+[3712:3712:1130/190413.641811:ERROR:context_group.cc(143)] ContextResult::kFatalFailure: WebGL1 blacklisted
+[4285:4285:1130/190654.269672:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+[4305:7:1130/190654.308974:ERROR:command_buffer_proxy_impl.cc(124)] ContextResult::kTransientFailure: Failed to send GpuChannelMsg_CreateCommandBuffer.
+[4285:4285:1130/190708.470071:ERROR:context_group.cc(143)] ContextResult::kFatalFailure: WebGL1 blacklisted
+[4285:4285:1130/190708.497152:ERROR:context_group.cc(143)] ContextResult::kFatalFailure: WebGL1 blacklisted
+[4285:4285:1130/190708.737825:ERROR:context_group.cc(143)] ContextResult::kFatalFailure: WebGL1 blacklisted
+
+(Thunar:579): Gtk-CRITICAL **: 19:07:30.388: gtk_main_quit: assertion 'main_loops != NULL' failed
+=========================
+FCITX 4.2.9.7 -- Get Signal No.: 15
+Date: try "date -d @1575140850" if you are using GNU date ***
+ProcessID: 667
+fcitx(+0x164c)[0x5598541f164c]
+/usr/lib/libc.so.6(+0x3bfb0)[0x7f53971b8fb0]
+fcitx(+0x1290)[0x5598541f1290]
+/usr/lib/libc.so.6(+0x3bfb0)[0x7f53971b8fb0]
+/usr/lib/libc.so.6(__select+0x1a)[0x7f5397273e2a]
+/usr/lib/libfcitx-core.so.0(+0x9cc6)[0x7f539739ccc6]
+/usr/lib/libfcitx-core.so.0(FcitxInstanceRun+0x57)[0x7f539739cde7]
+fcitx(+0x113e)[0x5598541f113e]
+/usr/lib/libc.so.6(__libc_start_main+0xf3)[0x7f53971a4153]
+fcitx(+0x11be)[0x5598541f11be]
