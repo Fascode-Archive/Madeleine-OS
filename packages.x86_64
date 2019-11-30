@@ -104,8 +104,8 @@ gvfs-smb
 htop
 lightdm
 lightdm-webkit2-greeter
-linux-lts
-linux-lts-headers
+linux
+linux-headers
 mousepad
 nano
 networkmanager
