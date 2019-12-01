@@ -19,6 +19,7 @@ usermod -G sudo arch
 sed -i 's/^#\s*\(%sudo\s\+ALL=(ALL)\s\+ALL\)/\1/' /etc/sudoers
 cp -aT /etc/skel/ /home/arch/
 
+chmod 644 /usr/share/backgrouds/cirno.jpg
 
 sed -i 's/#\(PermitRootLogin \).\+/\1yes/' /etc/ssh/sshd_config
 sed -i "s/#Server/Server/g" /etc/pacman.d/mirrorlist
