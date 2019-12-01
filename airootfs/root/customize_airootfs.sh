@@ -12,12 +12,14 @@ usermod -s /usr/bin/bash root
 cp -aT /etc/skel/ /root/
 chmod 700 /root
 
+<< disabled
 groupadd arch
 useradd -m -g arch -s /bin/bash arch
 groupadd sudo
 usermod -G sudo arch
 sed -i 's/^#\s*\(%sudo\s\+ALL=(ALL)\s\+ALL\)/\1/' /etc/sudoers
 cp -aT /etc/skel/ /home/arch/
+disabled
 
 rm /usr/share/backgrounds/xfce/xfce-stripes.png
 ln -s /usr/share/backgrounds/cirno.jpg /usr/share/backgrounds/xfce/xfce-stripes.png
