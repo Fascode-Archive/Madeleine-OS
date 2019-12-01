@@ -19,6 +19,8 @@ usermod -G sudo arch
 sed -i 's/^#\s*\(%sudo\s\+ALL=(ALL)\s\+ALL\)/\1/' /etc/sudoers
 cp -aT /etc/skel/ /home/arch/
 
+rm /usr/share/backgrounds/xfce/xfce-stripes.png
+ln -s /usr/share/backgrounds/cirno.jpg /usr/share/backgrounds/xfce/xfce-stripes.png
 chmod 644 /usr/share/backgrounds/cirno.jpg
 
 sed -i 's/#\(PermitRootLogin \).\+/\1yes/' /etc/ssh/sshd_config
