@@ -102,8 +102,6 @@ grub
 gvfs
 gvfs-smb
 htop
-lightdm
-lightdm-webkit2-greeter
 linux
 linux-headers
 mousepad
