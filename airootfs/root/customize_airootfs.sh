@@ -25,7 +25,7 @@ rm /usr/share/backgrounds/xfce/xfce-stripes.png
 ln -s /usr/share/backgrounds/cirno.jpg /usr/share/backgrounds/xfce/xfce-stripes.png
 chmod 644 /usr/share/backgrounds/cirno.jpg
 if [[ -d /usr/share/calamares/branding/manjaro ]]; then
-    rm -rf /usr/share/calamares/branding/
+    rm -rf /usr/share/calamares/branding/manjaro
 fi
 
 sed -i 's/#\(PermitRootLogin \).\+/\1yes/' /etc/ssh/sshd_config
