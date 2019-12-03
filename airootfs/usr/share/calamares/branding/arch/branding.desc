@@ -1,5 +1,5 @@
 ---
-componentName:  manjaro
+componentName:  arch
 
 # This selects between different welcome texts. When false, uses
 # the traditional "Welcome to the %1 installer.", and when true,
