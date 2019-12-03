@@ -41,13 +41,13 @@ windowSize: 800px,520px
 # bootloaderEntryName is how this installation / distro is named
 # in the boot loader (e.g. in the GRUB menu).
 strings:
-    productName:         Manjaro Linux
-    shortProductName:    Manjaro
-    version:             18.0
-    shortVersion:        18.0
-    versionedName:       Manjaro Linux 18.0 "Illyria"
-    shortVersionedName:  Manjaro 18.0
-    bootloaderEntryName: Manjaro
+    productName:         Arch Linux for Hayao
+    shortProductName:    Arch
+    version:             
+    shortVersion:        
+    versionedName:       Arch Linux for Hayao
+    shortVersionedName:  Arch Linux for Hayao
+    bootloaderEntryName: Arch Linux
 
 # These images are loaded from the branding module directory.
 #
@@ -82,6 +82,6 @@ slideshow:               "show.qml"
 #
 style:
    sidebarBackground:    "#454948"
-   sidebarText:          "#efefef"
    sidebarTextSelect:    "#4d915e"
-   sidebarTextHighlight: "#1a1c1b"
+#   sidebarTextHighlight: "#1a1c1b"
+    sidebarTextHighlight: "333333"
