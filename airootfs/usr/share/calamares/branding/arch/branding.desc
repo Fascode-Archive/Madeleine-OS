@@ -84,4 +84,4 @@ style:
    sidebarBackground:    "#454948"
    sidebarTextSelect:    "#4d915e"
 #   sidebarTextHighlight: "#1a1c1b"
-    sidebarTextHighlight: "333333"
+    sidebarTextHighlight: "#333333"
