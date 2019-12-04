@@ -1,6 +1,6 @@
 arch-install-scripts
 b43-fwcutter
-broadcom-wl
+broadcom-wl-dkms
 btrfs-progs
 clonezilla
 crda
@@ -102,7 +102,7 @@ grub
 gvfs
 gvfs-smb
 htop
-linux
+linux-lts
 linux-headers
 mousepad
 nano
@@ -149,3 +149,5 @@ xfwm4
 xfwm4-themes
 xorg-server
 yay
+
+calamares

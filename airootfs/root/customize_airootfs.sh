@@ -8,20 +8,25 @@ locale-gen
 
 ln -sf /usr/share/zoneinfo/UTC /etc/localtime
 
-usermod -s /usr/bin/bash root
+usermod -s /bin/bash root
 cp -aT /etc/skel/ /root/
 chmod 700 /root
 
+<< disabled
 groupadd arch
 useradd -m -g arch -s /bin/bash arch
 groupadd sudo
 usermod -G sudo arch
 sed -i 's/^#\s*\(%sudo\s\+ALL=(ALL)\s\+ALL\)/\1/' /etc/sudoers
 cp -aT /etc/skel/ /home/arch/
+disabled
 
 rm /usr/share/backgrounds/xfce/xfce-stripes.png
 ln -s /usr/share/backgrounds/cirno.jpg /usr/share/backgrounds/xfce/xfce-stripes.png
 chmod 644 /usr/share/backgrounds/cirno.jpg
+if [[ -d /usr/share/calamares/branding/manjaro ]]; then
+    rm -rf /usr/share/calamares/branding/manjaro
+fi
 
 sed -i 's/#\(PermitRootLogin \).\+/\1yes/' /etc/ssh/sshd_config
 sed -i "s/#Server/Server/g" /etc/pacman.d/mirrorlist
