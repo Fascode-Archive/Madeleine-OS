@@ -10,6 +10,7 @@ ln -sf /usr/share/zoneinfo/UTC /etc/localtime
 
 usermod -s /bin/bash root
 cp -aT /etc/skel/ /root/
+LC_ALL=C xdg-user-dirs-update
 chmod 700 /root
 
 << disabled
