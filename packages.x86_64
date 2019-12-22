@@ -87,12 +87,6 @@ bluez
 bluez-utils
 chromium
 exo
-fcitx
-fcitx-configtool
-fcitx-gtk2
-fcitx-gtk3
-fcitx-mozc
-fcitx-qt5
 garcon
 git
 gnome-disk-utility
