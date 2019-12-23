@@ -1,6 +1,6 @@
 arch-install-scripts
 b43-fwcutter
-broadcom-wl-dkms
+broadcom-wl
 btrfs-progs
 clonezilla
 crda
@@ -96,7 +96,7 @@ grub
 gvfs
 gvfs-smb
 htop
-linux-lts
+linux
 linux-headers
 mousepad
 nano
