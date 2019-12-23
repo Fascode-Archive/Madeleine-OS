@@ -89,5 +89,6 @@ slideshow:               "show.qml"
 
 style:
    sidebarBackground:    "#454948"
+   sidebarText:          "#efefef"
    sidebarTextSelect:    "#4d915e"
    sidebarTextHighlight: "#333333"
