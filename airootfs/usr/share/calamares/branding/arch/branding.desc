@@ -41,13 +41,13 @@ windowSize: 800px,520px
 # bootloaderEntryName is how this installation / distro is named
 # in the boot loader (e.g. in the GRUB menu).
 strings:
-    productName:         Arch Linux for Hayao
-    shortProductName:    Arch
+    productName:         Madeleine OS
+    shortProductName:    Madeleine OS
     version:             
     shortVersion:        
-    versionedName:       Arch Linux for Hayao
-    shortVersionedName:  Arch Linux for Hayao
-    bootloaderEntryName: Arch Linux
+    versionedName:       Madeleine OS
+    shortVersionedName:  Madeleine OS
+    bootloaderEntryName: Madeleine OS
 
 # These images are loaded from the branding module directory.
 #
