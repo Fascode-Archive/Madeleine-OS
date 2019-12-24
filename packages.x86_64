@@ -148,4 +148,4 @@ zenity
 calamares
 
 lightdm
-lightdm-gtk-greeter
+lightdm-webkit2-greeter
