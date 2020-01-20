@@ -1,17 +1,16 @@
 [Desktop Entry]
 Type=Application
 Version=1.0
-Name=Install Arch Linux
-Name[da]=Installer Arch Linux
+Name=Install MadeleineOS
+Name[da]=Installer MadeleineOS
 GenericName=Live Installer
 GenericName[da]=Live-installationsprogram
 Comment=Install the operating system to disk
-Comment[da]=Installer styresystemet på disk
-Comment[de]=Arch Linux installieren
-Exec=/usr/bin/calamares_polkit %f
+Exec=pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY /usr/bin/calamares_polkit %f
 Icon=calamares
 Terminal=false
 StartupNotify=true
 Type=Application
 Categories=Qt;System;
 Name[ja_JP.UTF-8]=MadeleineOSをインストール
+Name[en_US.UTF-8]=Install MadeleineOS.
