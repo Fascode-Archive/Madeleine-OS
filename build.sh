@@ -2,7 +2,7 @@
 
 set -e -u
 
-iso_name=archlinux-for-hayao
+iso_name="MadeleineOS"
 iso_label="ARCH_$(date +%Y%m)"
 iso_publisher="Arch Linux for Hayao <http://www.archlinux.org>"
 iso_application="Arch Linux for Hayao Live/Rescue CD"
