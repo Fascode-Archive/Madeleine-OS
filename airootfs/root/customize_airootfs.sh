@@ -14,14 +14,13 @@ LC_ALL=C xdg-user-dirs-update
 chmod 700 /root
 LANG=C xdg-user-dirs-update
 
-<< disabled
-groupadd arch
-useradd -m -g arch -s /bin/bash arch
+
 groupadd sudo
-usermod -G sudo arch
+useradd -m -g sudo -s /bin/bash liveuser
+usermod -G sudo liveuser
 sed -i 's/^#\s*\(%sudo\s\+ALL=(ALL)\s\+ALL\)/\1/' /etc/sudoers
-cp -aT /etc/skel/ /home/arch/
-disabled
+cp -aT /etc/skel/ /home/liveuser/
+
 
 rm /usr/share/backgrounds/xfce/xfce-stripes.png
 ln -s /usr/share/backgrounds/archlinux.jpg /usr/share/backgrounds/xfce/xfce-stripes.png
