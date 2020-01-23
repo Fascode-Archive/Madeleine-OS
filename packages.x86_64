@@ -1,6 +1,6 @@
 arch-install-scripts
 b43-fwcutter
-broadcom-wl
+broadcom-wl-dkms
 btrfs-progs
 clonezilla
 crda
@@ -10,6 +10,7 @@ dhclient
 dhcpcd
 dialog
 diffutils
+dkms
 dmraid
 dnsmasq
 dnsutils
@@ -33,6 +34,8 @@ jfsutils
 lftp
 linux-atm
 linux-firmware
+linux-lts
+linux-lts-headers
 lsscsi
 lvm2
 man-db

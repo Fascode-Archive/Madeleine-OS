@@ -1,5 +1,5 @@
-NAME="Madeleine OS"
-PRETTY_NAME="Madeleine OS"
+NAME="Madeleine OS LTS"
+PRETTY_NAME="Madeleine OS LTS"
 ID=arch
 BUILD_ID=rolling
 ANSI_COLOR="0;36"
